@@ -12,6 +12,6 @@ jobs:
         uses: bytebase/sql-review-action@main
         with:
 #           override-file-path: "<Your SQL review rules configuration file path>"
-          template-id: "<SQL review rule template id>"
-#           database-type: "TIDB"
+#           template-id: "<SQL review rule template id>"
+          database-type: "TIDB"
 #           file-pattern: "<The file pattern for your SQL files>"
